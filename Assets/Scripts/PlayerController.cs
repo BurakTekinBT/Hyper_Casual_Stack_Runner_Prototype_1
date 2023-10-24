@@ -18,8 +18,4 @@ public class PlayerController : MonoBehaviour
             transform.parent.transform.position += Vector3.forward * _playerSpeed * Time.deltaTime;
         }
     }
-    private void OnDrag()
-    {
-        
-    }
 }

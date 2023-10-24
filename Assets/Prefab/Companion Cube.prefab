@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 3171417486944706078}
   - component: {fileID: 1994242459756007867}
   - component: {fileID: 4343739133946160497}
+  - component: {fileID: -5538084280896117503}
+  - component: {fileID: 4615151823822931710}
   m_Layer: 0
   m_Name: Companion Cube
-  m_TagString: Untagged
+  m_TagString: Collectible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,3 +88,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-5538084280896117503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2830780416279790756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e1b385ac3d204341869c5502c2483f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &4615151823822931710
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2830780416279790756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.722256, y: 14.19787, z: 13.871401}
+  m_Center: {x: 0, y: 0, z: 6.3413143}
